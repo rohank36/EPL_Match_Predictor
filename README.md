@@ -26,3 +26,7 @@ Overall Remarks:
 - Improved model accuracy by 11% by adding new column predictors and performing hyperparameter tuning via Grid Search Cross Validation.
 - Scraped 5000+ rows of reliable data from the web using the requests library and Beautiful Soup, to build the dataset for model training/validation.
 - Tech Used: Python, BeautifulSoup, Pandas, Sklearn
+
+
+Appendix - Feature Importance:
+![Alt text](./rf_feature_importance.JPG)
