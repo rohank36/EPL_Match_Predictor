@@ -21,7 +21,7 @@ Boosts confidence that the acc metric of the model is indeed a robust indicator 
 
 
 Overall Remarks: 
-- Trained a Random Forest model to predict the outcome of English Premier League football matches with a 66.2% accuracy, beating a notable model produced by University of Innsbruck which had a 61.4% accuracy.
-- Improved model accuracy by 11% by adding new column predictors and hyperparameter tuning via Grid Search Cross Validation.
-- Scraped reliable data from the web using the requests library and beautiful soup
+- Trained a Random Forest model to predict 2023-2024 English Premier League match outcomes with a 66.2% accuracy, outperforming the University of Innsbruck's model by 4.8%.
+- Improved model accuracy by 11% by adding new column predictors and performing hyperparameter tuning via Grid Search Cross Validation.
+- Scraped 5000+ rows of reliable data from the web using the requests library and Beautiful Soup, to build the dataset for model training/validation.
 - Tech Used: Python, BeautifulSoup, Pandas, Sklearn
